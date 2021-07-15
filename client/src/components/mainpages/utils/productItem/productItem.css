@@ -4,7 +4,7 @@
     height: 500px;
     padding: 15px;
     box-shadow: 0 0 15px #ddd;
-    margin: 10px 0;
+    margin: 10px auto;
     position: relative;
 }
 .product_card img{
@@ -50,12 +50,26 @@
     padding: 6px;
 }
 #btn_buy{
-    background: #555;
+    background: rgb(46, 46, 46);
     margin-right: 5px;
+    border-radius: .3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn_buy:hover{
+    background: #111;
 }
 #btn_view{
-    background: teal;
+    background: tomato;
     margin-left: 5px;
+    border-radius: .3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn_view:hover{
+    background: rgb(246, 65, 33);
 }
 .product_card input{
     position: absolute;
