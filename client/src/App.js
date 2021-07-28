@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { DataProvider } from './GlobalState'
 import Header from './components/headers/Header'
 import MainPages from './components/mainpages/Pages'
+import Login from './components/mainpages/auth/Login';
+import Register from './components/mainpages/auth/Register';
 
 
 function App() {
@@ -15,7 +17,13 @@ function App() {
             <Header />
             <MainPages />
           </Route>
+          <Route path="/login">
+            <Login />
+          </Route>
 
+          <Route path="/register">
+            <Register />
+          </Route>
         </div>
       </Router>
     </DataProvider>
