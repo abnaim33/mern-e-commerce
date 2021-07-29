@@ -24,6 +24,12 @@ function App() {
           <Route path="/register">
             <Register />
           </Route> */}
+
+
+          <Route path="/login" exact component={isLogged ? NotFound : Login} />
+          <Route path="/register" exact component={isLogged ? NotFound : Register} />
+
+
         </div>
       </Router>
     </DataProvider>
