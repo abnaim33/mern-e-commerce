@@ -22,6 +22,9 @@ app.use('/api', require('./routes/upload'))
 app.use('/api', require('./routes/productRouter'))
 // app.use('/api', require('./routes/paymentRouter'))
 
+
+
+
 // have to start from part 25
 
 // Connect to mongodb

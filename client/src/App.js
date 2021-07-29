@@ -17,13 +17,7 @@ function App() {
             <Header />
             <MainPages />
           </Route>
-          {/* <Route path="/login">
-            <Login />
-          </Route>
 
-          <Route path="/register">
-            <Register />
-          </Route> */}
 
 
           <Route path="/login" exact component={isLogged ? NotFound : Login} />
