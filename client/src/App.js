@@ -17,13 +17,13 @@ function App() {
             <Header />
             <MainPages />
           </Route>
-          <Route path="/login">
+          {/* <Route path="/login">
             <Login />
           </Route>
 
           <Route path="/register">
             <Register />
-          </Route>
+          </Route> */}
         </div>
       </Router>
     </DataProvider>
